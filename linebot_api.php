@@ -20,7 +20,7 @@ foreach ($request_json['events'] as $event)
 			
 			if($text == "@บอท สวัสดี"){
 					$reply_message = "สวัสดีจจ๊ะ++ ยินดีให้บริการ เอาเงินมา";
-				}
+				} else
 			
 			if($txts[0] == "@บอท"){
 				
